@@ -1361,7 +1361,7 @@ contract KIP17Full is KIP17, KIP17Enumerable, KIP17Metadata {
 }
 
 
-contract QTokenQuizTokNFT  is KIP17Full, KIP17Mintable, KIP17MetadataMintable, KIP17Burnable, KIP17Pausable {
+contract QuizTokNFT  is KIP17Full, KIP17Mintable, KIP17MetadataMintable, KIP17Burnable, KIP17Pausable {
     constructor (string memory name, string memory symbol) public KIP17Full(name, symbol) {
     }
 }
